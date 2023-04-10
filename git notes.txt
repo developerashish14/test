@@ -1,0 +1,50 @@
+
+//---------git push command start ----------------
+git init
+
+git add .
+
+
+git commit -m "First commit"
+
+git branch -M main
+
+git remote add origin -------url
+
+git push origin main
+
+
+
+//---------git pull command----------------
+
+
+git remote add origin https://github.com/developerashish14/test.git
+git branch -M main
+git push origin main
+
+
+
+
+
+
+// ----git check origin--------------------------
+git remote -v
+git remote add origin <url>
+git remote set-url origin <url>
+
+
+
+//--------git branch ---------------
+
+git branch
+git branch <name>
+git checkout <name>
+git checkout -b <name>
+
+
+
+
+//-------git log -----------------
+git log
+
+
